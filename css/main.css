@@ -1,0 +1,294 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #272c2f;
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+div, a, p, form, input, button {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.header .hat {
+    letter-spacing: 0.02em;
+    justify-content: space-between;
+}
+
+.navigation {
+    background: #1f5a8a;
+    color: #fff;
+    padding: 31px 0 31px 0;
+    box-shadow: 0 0 10px rgba(97, 87, 87, 1);
+}
+
+.navigation .container {
+    display: flex;
+}
+
+.navigation a {
+    color: #fff;
+}
+
+.logo {
+    padding-top: 2px;
+    display: flex;
+    align-items: center;
+    max-height: 30px;
+}
+
+.menu {
+    display: flex;
+    font-weight: bold;
+    padding-left: 105px;
+    padding-top: 4px;
+}
+
+.menu li {
+    margin-right: 26px;
+}
+
+.menu li a {
+
+}
+
+.phone {
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+    padding-top: 4px;
+}
+
+h1 {
+    font-size: 23px;
+    color: #272c2f;
+    margin-top: 73px;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+}
+
+.headline p {
+    color: #828899;
+    font-size: 14px;
+    margin-top: 15px;
+    line-height: 1.55em;
+    letter-spacing: 0.02em;
+}
+
+.cards {
+    display: flex;
+    margin-top: 40px;
+}
+
+.cards__test {
+    width: 320px;
+    height: 222px;
+    padding: 10px 25px 10px 30px;
+    border: 1px solid #d6d6d6;
+    box-sizing: border-box;
+    margin-right: 19px;
+    letter-spacing: 0.02em;
+}
+
+.cards__test h3 {
+    letter-spacing: 0.0001em;  
+}
+
+.cards__test p {
+    line-height: 1.5em;
+    letter-spacing: 0.02em;
+    margin-top: -5px;
+    font-size: 15px;
+}
+
+.cards__test:last-child {
+    margin-right: 0;
+}
+
+.cards__test:hover {
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(171, 165, 165, 1);
+}
+
+.cards__test:last-child {
+    height: 250px;
+}
+
+.cards a {
+    color: #22a2ec;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    margin-top: 11px;
+}
+
+h2 {
+    font-size: 19px;
+    text-transform: uppercase;
+}
+
+.contacts {
+    margin-top: 48px;
+}
+
+.contacts .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form {
+    padding-top: 23px;
+}
+
+.form input {
+    border: 1px solid #d6d6d6;
+    font-size: 15px;
+    padding: 12px 19px 13px 19px;
+    width: 239px;
+    margin-bottom: 13px;
+    outline: none;
+}
+
+.form input:hover {
+    border-color: #ebce0d;
+}
+
+.form textarea:hover {
+    border-color: #ebce0d;
+}
+
+.data {
+    width: 342px;
+}
+
+.data h2 {
+    margin-top: 2px;
+    letter-spacing: 0.02em;
+}
+
+.send {
+    width: 166px;
+    padding: 12px 44px;
+    font-size: 15px;
+    font-weight: bold;
+    background: #ebce0d;
+    cursor: pointer;
+    border: none;
+}
+
+.data p {
+    font-size: 12px;
+    color: #84898d;
+    margin-top: 22px;
+    margin-bottom: 70px;
+    letter-spacing: 0.02em;
+}
+
+textarea {
+    width: 359px;
+    height: 124px;
+    padding: 11px 21px;
+    box-sizing: border-box;
+    margin-bottom: 18px;
+    font-size: 15px;
+}
+
+.blue {
+    background: #1f5a8a;
+    width: 547px;
+    height: 456px;
+    border-radius: 10px;
+    color: #c0ddee;
+    padding-top: 25px;
+    padding-left: 43px;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+}
+
+.blue h3 {
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.lorem {
+    display: flex;
+    line-height: 1.5em;
+}
+
+.leftcolumn {
+    width: 209px;
+    margin-right: 36px;
+    margin-top: 7px;
+}
+
+.leftcolumn img {
+    padding-top: 20px;
+}
+
+.rightcolumn {
+    width: 209px;
+    margin-top: 7px;
+}
+
+.footer {
+    background: #1f5a8a;
+    color: #fff;
+    padding: 28px 0 20px 0;
+    margin-top: -4px;
+    padding-bottom: 29px;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.footer p {
+    font-size: 13px;
+    letter-spacing: 0.02em;
+}
+
+.footer button {
+    width: 146px;
+    padding: 10px 5px;
+    background: transparent;
+    color: #fff;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: -0.02em;
+}
+
+.leftbutton {
+    border-radius: 5px;
+}
+
+.middlebutton {
+    border-radius: 100px;
+}
+
+.white {
+    display: block; 
+    font-size: 12px;
+    width: 230px;
+    background: #fff;
+    color: #455991;
+    padding: 14px 5px 14px 4px;
+    text-align: center;
+    border-radius: 3px;
+    letter-spacing: 0.02em;
+}
