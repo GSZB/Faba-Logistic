@@ -315,6 +315,11 @@ textarea {
     letter-spacing: 0.02em;
 }
 
+html,
+body {
+  height: 100%; /*this place footer to bottom*/
+}
+
 body {
     display: flex; /*this place footer to bottom*/
     flex-direction: column; /*this place footer to bottom*/
