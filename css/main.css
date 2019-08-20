@@ -277,8 +277,30 @@ textarea {
     border-radius: 5px;
 }
 
+.leftbutton:hover {
+    background: #fff;
+    color: #1f5a8a;
+    transition: 0.5s;
+}
+
+.leftbutton:active {
+    box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.75);
+    transition: 0ms;
+}
+
 .middlebutton {
     border-radius: 100px;
+}
+
+.middlebutton:hover {
+    background: #fff;
+    color: #1f5a8a;
+    transition: 0.5s;
+}
+
+.middlebutton:active {
+    box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.75);
+    transition: 0ms;
 }
 
 .white {
@@ -291,4 +313,13 @@ textarea {
     text-align: center;
     border-radius: 3px;
     letter-spacing: 0.02em;
+}
+
+body {
+    display: flex; /*this place footer to bottom*/
+    flex-direction: column; /*this place footer to bottom*/
+  }
+
+header, section {
+    flex: 1 0 auto; /*this place footer to bottom*/
 }
