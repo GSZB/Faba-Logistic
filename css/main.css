@@ -7,6 +7,10 @@ body {
     box-sizing: border-box;
 }
 
+html, body {
+  height: 100%; /*this place footer to bottom*/
+}
+
 .container {
     width: 960px;
     margin: 0 auto;
@@ -315,16 +319,11 @@ textarea {
     letter-spacing: 0.02em;
 }
 
-html,
 body {
-  height: 100%; /*this place footer to bottom*/
-}
-
-body {
-    display: flex; /*this place footer to bottom*/
-    flex-direction: column; /*this place footer to bottom*/
+    display: flex;
+    flex-direction: column;
   }
 
 header, section {
-    flex: 1 0 auto; /*this place footer to bottom*/
+    flex: 1 0 auto;
 }
